@@ -54,4 +54,20 @@ body {
 .travel-tips {
 display: flex;
 flex-wrap: wrap;
+flex-basis: 45%;
+}
+
+.quotes {
+display: flex;
+flex-direction: column;
+flex-basis: 45%;
+}
+
+.title {
+  text-align: center;
+  margin: .5em;
+}
+
+.quote-title {
+  text-align: center;
 }
