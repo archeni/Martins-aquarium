@@ -45,3 +45,13 @@ body {
 .tip {
   margin: 1rem 0 2rem 0;
 }
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.travel-tips {
+display: flex;
+flex-wrap: wrap;
+}
