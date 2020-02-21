@@ -20,58 +20,85 @@
     <article class='fish-info'>
       <section class='fish border'>
         <img class='picture' src='https://www.fws.gov/fisheries/freshwater-fish-of-america/images/originals/west_temperate/Alligator_gar.png'>
-        <div class='fish-details'>
-          <ul>
-            <li>Alligator gar</li>
-            <li>Atrctosteus spatula</li>
-            <li>southwestern Ohio and southern Illinois to the Mississippi River drainage basin</li>
-            <li>Alligator gar feed on blue crabs, turtles, waterfowl or other birds and small mammals</li>
-            <li>200cm</li>
-          </ul>
+        <div>
+          <div>Alligator gar</div>
+          <button id='gar-button'>Details</button>
         </div>
+        <dialog id='gar-details'>
+          <div class='fish-details'>
+            <ul>
+              <li>Atrctosteus spatula</li>
+              <li>southwestern Ohio and southern Illinois to the Mississippi River drainage basin</li>
+              <li>Alligator gar feed on blue crabs, turtles, waterfowl or other birds and small mammals</li>
+              <li>200cm</li>
+            </ul>
+          </div>
+          <button class="button--close" id="close-gar">Close Dialog</button>
+        </dialog>
       </section>
+
       <section class='fish border'>
         <img class='picture' src='https://www.fws.gov/fisheries/freshwater-fish-of-america/images/originals/west_temperate/Humpback_chub_JosephRTomelleri_copyright.png'>
-        <div class='fish-details'>
-          <ul>
-            <li>Humpback chub</li>
-            <li>Gila cypha</li>
-            <li>Little Colorado River</li>
-            <li>algae, plant debris, ﬁsh remains, Mormon crickets and other terrestrial insects</li>
-            <li>25cm</li>
-          </ul>
+        <div>
+          <div>Humpback chub</div>
+          <button id='chub-button'>Details</button>
         </div>
+        <dialog id='chub-details'>
+          <div class='fish-details'>
+            <ul>
+              <li>Gila cypha</li>
+              <li>Little Colorado River</li>
+              <li>algae, plant debris, ﬁsh remains, Mormon crickets and other terrestrial insects</li>
+              <li>25cm</li>
+            </ul>
+          </div>
+          <button class="button--close" id="close-chub">Close Dialog</button>
+        </dialog>
       </section>
+
       <section class='fish border'>
-        <img class='picture' src='https://www.fws.gov/fisheries/freshwater-fish-of-america/images/originals/west_temperate/Humpback_chub_JosephRTomelleri_copyright.png'>
-        <div class='fish-details'>
-          <ul>
-            <li>Humpback chub</li>
-            <li>Gila cypha</li>
-            <li>Little Colorado River</li>
-            <li>algae, plant debris, ﬁsh remains, Mormon crickets and other terrestrial insects</li>
-            <li>25cm</li>
-          </ul>
+        <img class='picture' src='https://www.fws.gov/fisheries/freshwater-fish-of-america/images/originals/east_temperate/Lake_sturgeon_TedWalke_PAFish&BoatCommission_copyright.png'>
+        <div>
+          <div>Lake sturgeon</div>
+          <button id='sturgeon-button'>Details</button>
         </div>
+        <dialog id='sturgeon-details'>
+          <div class='fish-details'>
+            <ul>
+              <li>Acipenser fulvescens</li>
+              <li>Mississippi River, Hudson Bay and the Great Lakes</li>
+              <li>Lake sturgeon are omnivorous and eat insect larvae, crayﬁsh, snails, clams and leeches</li>
+              <li>140kg</li>
+            </ul>
+          </div>
+          <button class="button--close" id="close-sturgeon">Close Dialog</button>
+        </dialog>
       </section>
+
       <section class='fish border'>
-        <img class='picture' src='https://www.fws.gov/fisheries/freshwater-fish-of-america/images/originals/west_temperate/Humpback_chub_JosephRTomelleri_copyright.png'>
-        <div class='fish-details'>
-          <ul>
-            <li>Humpback chub</li>
-            <li>Gila cypha</li>
-            <li>Little Colorado River</li>
-            <li>algae, plant debris, ﬁsh remains, Mormon crickets and other terrestrial insects</li>
-            <li>25cm</li>
-          </ul>
+        <img class='picture' src='https://www.fws.gov/fisheries/freshwater-fish-of-america/images/originals/east_warm/Channel_catfish_DuaneRavenArt.png'>
+        <div>
+          <div>Channel catfish</div>
+          <button id='catfish-button'>Details</button>
         </div>
+        <dialog id='catfish-details'>
+          <div class='fish-details'>
+            <ul>
+              <li>Ictalurus punctatus</li>
+              <li>southern Canada into northern Mexico</li>
+              <li>small ﬁsh, crustaceans (crayﬁsh), clams and snails, aquatic insects and small mammals</li>
+              <li>57cm</li>
+            </ul>
+          </div>
+          <button class="button--close" id="close-catfish">Close Dialog</button>
+        </dialog>
       </section>
     </article>
       
       
       <aside class='fish-care border'>
-        <header>Fish and Tank Care</header>
-        <ul class='container'>
+        <header class='tip-header'>Fish and Tank Care</header>
+        <ul class='tip-list'>
           <li class='tip'>An aquarium is a delicately balanced ecosystem that 
             relies on “good” bacteria to keep fish healthy. When everything
             is working right, helpful bacteria grow in the aquarium’s gravel 
@@ -92,6 +119,6 @@
       
   </main>
 
-  <script src="./scripts/main.js"></script>
+  <script type='module' src="./scripts/main.js"></script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+@import 'nav.css';
+@import 'fish.css';
+@import 'location.css';
+
 body {
   background-color: darkorchid;
 }
@@ -9,65 +13,5 @@ body {
 }
 
 .border {
-  border: 1px solid yellow;
-}
-
-.fish-info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 60%;
-}
-
-.fish-care {
-  flex-basis: 20%;
-}
-
-.picture {
-  width: 20%;
-  height: 30%;
-}
-
-.fish {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 40%;
-}
-
-.navigation {
-  margin: 2em;
-  justify-content: center;
-}
-
-.nav-link {
-  padding: 0 1em 0 1em;
-}
-
-.tip {
-  margin: 1rem 0 2rem 0;
-}
-
-.locations {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.travel-tips {
-display: flex;
-flex-wrap: wrap;
-flex-basis: 45%;
-}
-
-.quotes {
-display: flex;
-flex-direction: column;
-flex-basis: 45%;
-}
-
-.title {
-  text-align: center;
-  margin: .5em;
-}
-
-.quote-title {
-  text-align: center;
+  border: 2px solid yellow;
 }

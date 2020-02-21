@@ -1,0 +1,29 @@
+.fish-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.travel-tips {
+display: flex;
+flex-wrap: wrap;
+flex-basis: 45%;
+background-color: lightgray;
+}
+
+.quotes {
+display: flex;
+flex-direction: column;
+flex-basis: 45%;
+background-color: lightgray;
+}
+
+.quote-title {
+  text-align: center;
+}
