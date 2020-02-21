@@ -1,3 +1,7 @@
+import init from './dialogs.js';
+
+init.initializeDetailButtonEvents();
+
 const fishInfo = [
   {
     img: 'https://www.fws.gov/fisheries/freshwater-fish-of-america/images/originals/west_temperate/Alligator_gar.png',
@@ -35,7 +39,7 @@ const fishInfo = [
     img: 'https://www.fws.gov/fisheries/freshwater-fish-of-america/images/originals/west_cold/Arctic_grayling_JosephRTomelleri_copyright.png',
     species: 'Thymallus arcticus',
     size: '34.3',
-    name: 'Channel catfish',
+    name: 'Arctic grayling',
     location: 'drainages of the Arctic Ocean, Hudson Bay and Northern Paciﬁc Ocean in North America and in Asia',
     diet: 'Young grayling feed on zooplankton, with a gradual shift to immature insects as the grow older. Adult grayling feed on surface insects but also on ﬁsh, ﬁsh eggs, lemmings, and planktonic crustaceans', 
   },
